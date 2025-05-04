@@ -1,0 +1,15 @@
+name: GcPersonalDoors
+main: me.personaldoors.GcPersonalDoors
+version: 1.0
+api-version: 1.19
+author: ignGecko
+commands:
+  personaldoor:
+    description: Gives a personal door to a player
+    usage: /personaldoor <player>
+    permission: personaldoors.give
+permissions:
+  personaldoors.give:
+    description: Allows giving personal doors
+    default: op
+
